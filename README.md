@@ -1,3 +1,13 @@
+Test BCH Jose Gutierrez
+
+Maqueta hasta version tablet, se adjuntan 2 archivos index:
+- index_no_http_request.html: Version para probar en escritorio
+- index.html: Version con HTTP_Request, requiere un servidor
+Angular, jQuery y otras librerias javasScript estan cargadas por CDN. 
+Se utilizo Angular para llenar la tabla, paginacion y filtro de texto.
+
+
+
 Prueba Ingreso Front-End Designer
 
 Construya la pieza gráfica que se encuentra en el repositorio. Para ello haga fork y luego haga un commit inicial para poder tomar el tiempo que le lleva realizar la tarea. No olvidar la versión tablet.

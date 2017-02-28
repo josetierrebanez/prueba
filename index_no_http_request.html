@@ -118,7 +118,7 @@
         </div>
       </div>
       <div class="row">
-        <table class="table" >
+        <table class="table">
           <thead>
             <tr>
               <th>&nbsp;</th>
@@ -128,7 +128,7 @@
               <th>Total</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody> 
             <tr ng-repeat="ex in names | filter: busca | startFrom:currentPage*pageSize  |  limitTo:pageSize">
               <td class="text-center">
                 <input type="radio" name="optradio">
@@ -151,6 +151,6 @@
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="js/test-bch.js"></script>
+    <script type="text/javascript" src="js/test-bch_no_http_request.js"></script>
   </body>
 </html>
